@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/imagem">
+        <file>logotipo.jpg</file>
+        <file>logotipo-removebg-preview.png</file>
+        <file>em cima.png</file>
+        <file>embaixo.png</file>
+        <file>esquerda.png</file>
+    </qresource>
+    <qresource prefix="/imagem2"/>
+</RCC>

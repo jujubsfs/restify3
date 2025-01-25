@@ -1,4 +1,4 @@
-#include "mainwindow.h"
+#include "tela2.h"
 
 #include <QApplication>
 #include <QLocale>
@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
             break;
         }
     }
-    MainWindow w;
+    tela2 w;
     w.show();
     return a.exec();
 }

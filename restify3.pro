@@ -10,13 +10,16 @@ CONFIG += c++17
 
 SOURCES += \
     main.cpp \
-    mainwindow.cpp
+    tela1.cpp \
+    tela2.cpp
 
 HEADERS += \
-    mainwindow.h
+    tela1.h \
+    tela2.h
 
 FORMS += \
-    mainwindow.ui
+    tela1.ui \
+    tela2.ui
 
 TRANSLATIONS += \
     restify3_pt_BR.ts
@@ -27,3 +30,6 @@ CONFIG += embed_translations
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+RESOURCES += \
+    resources.qrc
