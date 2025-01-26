@@ -11,15 +11,27 @@ CONFIG += c++17
 SOURCES += \
     main.cpp \
     tela1.cpp \
-    tela2.cpp
+    tela2.cpp \
+    telacadastrarprato.cpp \
+    telacontabilizarpedido.cpp \
+    teladecardapio.cpp \
+    telarelatorio.cpp
 
 HEADERS += \
     tela1.h \
-    tela2.h
+    tela2.h \
+    telacadastrarprato.h \
+    telacontabilizarpedido.h \
+    teladecardapio.h \
+    telarelatorio.h
 
 FORMS += \
     tela1.ui \
     tela2.ui \
+    telacadastrarprato.ui \
+    telacontabilizarpedido.ui \
+    teladecardapio.ui \
+    telarelatorio.ui
 
 
 TRANSLATIONS += \

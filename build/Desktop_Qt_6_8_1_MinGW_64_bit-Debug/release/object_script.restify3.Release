@@ -1,0 +1,15 @@
+release/main.o
+release/tela1.o
+release/tela2.o
+release/telacadastrarprato.o
+release/telacontabilizarpedido.o
+release/teladecardapio.o
+release/telarelatorio.o
+release/qrc_resources.o
+release/qrc_qmake_qmake_qm_files.o
+release/moc_tela1.o
+release/moc_tela2.o
+release/moc_telacadastrarprato.o
+release/moc_telacontabilizarpedido.o
+release/moc_teladecardapio.o
+release/moc_telarelatorio.o

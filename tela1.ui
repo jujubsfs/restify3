@@ -90,6 +90,9 @@
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
    <property name="geometry">
     <rect>
      <x>280</x>
@@ -105,11 +108,13 @@
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">color: rgb(85, 107, 47);
-</string>
+    <string notr="true">background-color: rgb(255, 183, 0);</string>
    </property>
    <property name="text">
     <string>Ver Cardápio</string>
+   </property>
+   <property name="autoDefault">
+    <bool>true</bool>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_2">
@@ -128,8 +133,7 @@
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">color: rgb(85, 107, 47);
-</string>
+    <string notr="true">background-color: rgb(255, 183, 0);</string>
    </property>
    <property name="text">
     <string>Inserir Prato</string>
@@ -151,8 +155,7 @@
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">color: rgb(85, 107, 47);
-</string>
+    <string notr="true">background-color: rgb(255, 183, 0);</string>
    </property>
    <property name="text">
     <string>Inserir Pedido</string>
@@ -174,8 +177,7 @@
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">color: rgb(85, 107, 47);
-</string>
+    <string notr="true">background-color: rgb(255, 183, 0);</string>
    </property>
    <property name="text">
     <string>Gerar Relatório</string>

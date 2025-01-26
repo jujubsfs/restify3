@@ -1,0 +1,15 @@
+debug/main.o
+debug/tela1.o
+debug/tela2.o
+debug/telacadastrarprato.o
+debug/telacontabilizarpedido.o
+debug/teladecardapio.o
+debug/telarelatorio.o
+debug/qrc_resources.o
+debug/qrc_qmake_qmake_qm_files.o
+debug/moc_tela1.o
+debug/moc_tela2.o
+debug/moc_telacadastrarprato.o
+debug/moc_telacontabilizarpedido.o
+debug/moc_teladecardapio.o
+debug/moc_telarelatorio.o
