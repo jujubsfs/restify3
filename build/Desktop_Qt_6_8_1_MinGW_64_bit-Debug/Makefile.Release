@@ -332,7 +332,7 @@ release/moc_tela1.cpp: ../../tela1.h \
 		C:/Qt/6.8.1/mingw_64/include/QtGui/qguiapplication_platform.h \
 		release/moc_predefs.h \
 		C:/Qt/6.8.1/mingw_64/bin/moc.exe
-	C:\Qt\6.8.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/anaju/OneDrive/Documentos/restify3/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/release/moc_predefs.h -IC:/Qt/6.8.1/mingw_64/mkspecs/win32-g++ -IC:/Users/anaju/OneDrive/Documentos/restify3 -IC:/Qt/6.8.1/mingw_64/include -IC:/Qt/6.8.1/mingw_64/include/QtWidgets -IC:/Qt/6.8.1/mingw_64/include/QtGui -IC:/Qt/6.8.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++ -IC:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward -IC:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include -IC:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed -IC:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include ..\..\tela1.h -o release\moc_tela1.cpp
+	C:\Qt\6.8.1\mingw_64\bin\moc.exe $(DEFINES) --include "C:/Users/Avanco Engenharia/Documents/GitHub/restify3/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/release/moc_predefs.h" -IC:/Qt/6.8.1/mingw_64/mkspecs/win32-g++ -I"C:/Users/Avanco Engenharia/Documents/GitHub/restify3" -IC:/Qt/6.8.1/mingw_64/include -IC:/Qt/6.8.1/mingw_64/include/QtWidgets -IC:/Qt/6.8.1/mingw_64/include/QtGui -IC:/Qt/6.8.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++ -IC:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward -IC:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include -IC:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed -IC:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include ..\..\tela1.h -o release\moc_tela1.cpp
 
 release/moc_tela2.cpp: ../../tela2.h \
 		C:/Qt/6.8.1/mingw_64/include/QtWidgets/QDialog \
@@ -527,7 +527,7 @@ release/moc_tela2.cpp: ../../tela2.h \
 		C:/Qt/6.8.1/mingw_64/include/QtGui/qguiapplication_platform.h \
 		release/moc_predefs.h \
 		C:/Qt/6.8.1/mingw_64/bin/moc.exe
-	C:\Qt\6.8.1\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/anaju/OneDrive/Documentos/restify3/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/release/moc_predefs.h -IC:/Qt/6.8.1/mingw_64/mkspecs/win32-g++ -IC:/Users/anaju/OneDrive/Documentos/restify3 -IC:/Qt/6.8.1/mingw_64/include -IC:/Qt/6.8.1/mingw_64/include/QtWidgets -IC:/Qt/6.8.1/mingw_64/include/QtGui -IC:/Qt/6.8.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++ -IC:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward -IC:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include -IC:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed -IC:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include ..\..\tela2.h -o release\moc_tela2.cpp
+	C:\Qt\6.8.1\mingw_64\bin\moc.exe $(DEFINES) --include "C:/Users/Avanco Engenharia/Documents/GitHub/restify3/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/release/moc_predefs.h" -IC:/Qt/6.8.1/mingw_64/mkspecs/win32-g++ -I"C:/Users/Avanco Engenharia/Documents/GitHub/restify3" -IC:/Qt/6.8.1/mingw_64/include -IC:/Qt/6.8.1/mingw_64/include/QtWidgets -IC:/Qt/6.8.1/mingw_64/include/QtGui -IC:/Qt/6.8.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++ -IC:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward -IC:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include -IC:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed -IC:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include ..\..\tela2.h -o release\moc_tela2.cpp
 
 compiler_moc_objc_header_make_all:
 compiler_moc_objc_header_clean:
@@ -945,7 +945,18 @@ release/tela1.o: ../../tela1.cpp ../../tela1.h \
 		C:/Qt/6.8.1/mingw_64/include/QtGui/qinputmethod.h \
 		C:/Qt/6.8.1/mingw_64/include/QtCore/qlocale.h \
 		C:/Qt/6.8.1/mingw_64/include/QtGui/qguiapplication_platform.h \
-		ui_tela1.h
+		ui_tela1.h \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/QVariant \
+		C:/Qt/6.8.1/mingw_64/include/QtWidgets/QApplication \
+		C:/Qt/6.8.1/mingw_64/include/QtWidgets/qapplication.h \
+		C:/Qt/6.8.1/mingw_64/include/QtWidgets/QLabel \
+		C:/Qt/6.8.1/mingw_64/include/QtWidgets/qlabel.h \
+		C:/Qt/6.8.1/mingw_64/include/QtWidgets/qframe.h \
+		C:/Qt/6.8.1/mingw_64/include/QtGui/qpicture.h \
+		C:/Qt/6.8.1/mingw_64/include/QtGui/qtextdocument.h \
+		C:/Qt/6.8.1/mingw_64/include/QtWidgets/QPushButton \
+		C:/Qt/6.8.1/mingw_64/include/QtWidgets/qpushbutton.h \
+		C:/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractbutton.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\tela1.o ..\..\tela1.cpp
 
 release/tela2.o: ../../tela2.cpp ../../tela2.h \
@@ -1153,7 +1164,11 @@ release/tela2.o: ../../tela2.cpp ../../tela2.h \
 		C:/Qt/6.8.1/mingw_64/include/QtGui/qtextcursor.h \
 		C:/Qt/6.8.1/mingw_64/include/QtGui/qtextformat.h \
 		C:/Qt/6.8.1/mingw_64/include/QtGui/qpen.h \
-		C:/Qt/6.8.1/mingw_64/include/QtGui/qtextoption.h
+		C:/Qt/6.8.1/mingw_64/include/QtGui/qtextoption.h \
+		C:/Qt/6.8.1/mingw_64/include/QtWidgets/QPushButton \
+		C:/Qt/6.8.1/mingw_64/include/QtWidgets/qpushbutton.h \
+		C:/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractbutton.h \
+		../../tela1.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\tela2.o ..\..\tela2.cpp
 
 release/qrc_resources.o: release/qrc_resources.cpp 

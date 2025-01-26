@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>850</width>
-    <height>560</height>
+    <width>809</width>
+    <height>441</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -32,29 +32,13 @@
     <pixmap resource="resources.qrc">:/imagem/em cima.png</pixmap>
    </property>
   </widget>
-  <widget class="QLabel" name="label_2">
-   <property name="geometry">
-    <rect>
-     <x>240</x>
-     <y>30</y>
-     <width>361</width>
-     <height>200</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="pixmap">
-    <pixmap resource="resources.qrc">:/imagem/logotipo-removebg-preview.png</pixmap>
-   </property>
-  </widget>
   <widget class="QLabel" name="label_3">
    <property name="geometry">
     <rect>
-     <x>610</x>
-     <y>210</y>
+     <x>570</x>
+     <y>230</y>
      <width>471</width>
-     <height>411</height>
+     <height>231</height>
     </rect>
    </property>
    <property name="text">
@@ -67,8 +51,8 @@
   <widget class="QLabel" name="label_4">
    <property name="geometry">
     <rect>
-     <x>-10</x>
-     <y>50</y>
+     <x>-20</x>
+     <y>110</y>
      <width>261</width>
      <height>461</height>
     </rect>
@@ -80,13 +64,13 @@
     <pixmap resource="resources.qrc">:/imagem/esquerda.png</pixmap>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="pushButton_2">
    <property name="geometry">
     <rect>
-     <x>355</x>
-     <y>430</y>
-     <width>150</width>
-     <height>50</height>
+     <x>320</x>
+     <y>350</y>
+     <width>161</width>
+     <height>41</height>
     </rect>
    </property>
    <property name="font">
@@ -103,13 +87,35 @@
     <string>Começar</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_5">
+  <widget class="QLineEdit" name="lineEdit">
    <property name="geometry">
     <rect>
-     <x>325</x>
-     <y>290</y>
-     <width>291</width>
-     <height>71</height>
+     <x>300</x>
+     <y>230</y>
+     <width>201</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 1px solid gray;
+border-radius: 10px;
+padding: 5px;
+background: rgb(255, 185, 1);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>Login</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>120</y>
+     <width>216</width>
+     <height>67</height>
     </rect>
    </property>
    <property name="font">
@@ -124,6 +130,31 @@
    </property>
    <property name="text">
     <string>RESTIFY</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>280</y>
+     <width>201</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 1px solid gray;
+border-radius: 10px;
+padding: 5px;
+background: rgb(255, 185, 1);</string>
+   </property>
+   <property name="inputMask">
+    <string/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>Senha</string>
    </property>
   </widget>
  </widget>

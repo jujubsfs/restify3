@@ -19,7 +19,8 @@ HEADERS += \
 
 FORMS += \
     tela1.ui \
-    tela2.ui
+    tela2.ui \
+
 
 TRANSLATIONS += \
     restify3_pt_BR.ts

@@ -24,3 +24,12 @@ void tela2::on_pushButton_clicked()
     this->close();
 }
 
+
+
+void tela2::on_pushButton_2_clicked()
+{
+    tela1 *telaScreen = new tela1();
+    telaScreen->show();
+    this->close();
+}
+

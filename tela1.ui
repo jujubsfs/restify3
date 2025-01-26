@@ -52,7 +52,7 @@
    <property name="geometry">
     <rect>
      <x>610</x>
-     <y>210</y>
+     <y>240</y>
      <width>471</width>
      <height>411</height>
     </rect>
@@ -64,61 +64,121 @@
     <pixmap resource="resources.qrc">:/imagem/embaixo.png</pixmap>
    </property>
   </widget>
-  <widget class="QLabel" name="label_4">
+  <widget class="QLabel" name="bemvindo">
    <property name="geometry">
     <rect>
-     <x>240</x>
-     <y>40</y>
-     <width>360</width>
-     <height>200</height>
+     <x>290</x>
+     <y>60</y>
+     <width>274</width>
+     <height>38</height>
     </rect>
    </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="pixmap">
-    <pixmap resource="resources.qrc">:/imagem/logotipo-removebg-preview.png</pixmap>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEdit">
-   <property name="geometry">
-    <rect>
-     <x>340</x>
-     <y>320</y>
-     <width>200</width>
-     <height>30</height>
-    </rect>
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+     <pointsize>20</pointsize>
+    </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(255,249,87)</string>
+    <string notr="true">color: rgb(255, 185, 1);</string>
    </property>
    <property name="text">
-    <string/>
+    <string>Bem Vindo ao Restify!</string>
    </property>
-   <property name="placeholderText">
-    <string>Login</string>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_2">
+  <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>340</x>
-     <y>380</y>
-     <width>200</width>
-     <height>30</height>
+     <x>280</x>
+     <y>140</y>
+     <width>301</width>
+     <height>91</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(255,249,87)</string>
+    <string notr="true">color: rgb(85, 107, 47);
+</string>
    </property>
    <property name="text">
-    <string/>
+    <string>Ver Cardápio</string>
    </property>
-   <property name="echoMode">
-    <enum>QLineEdit::EchoMode::Password</enum>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>240</y>
+     <width>301</width>
+     <height>91</height>
+    </rect>
    </property>
-   <property name="placeholderText">
-    <string>Senha</string>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(85, 107, 47);
+</string>
+   </property>
+   <property name="text">
+    <string>Inserir Prato</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>340</y>
+     <width>301</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(85, 107, 47);
+</string>
+   </property>
+   <property name="text">
+    <string>Inserir Pedido</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>440</y>
+     <width>301</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(85, 107, 47);
+</string>
+   </property>
+   <property name="text">
+    <string>Gerar Relatório</string>
    </property>
   </widget>
  </widget>
