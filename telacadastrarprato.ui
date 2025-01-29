@@ -13,7 +13,7 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
      <x>20</x>
@@ -70,7 +70,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QLineEdit" name="lineEdit"/>
+       <widget class="QLineEdit" name="inserir_nome"/>
       </item>
      </layout>
     </item>
@@ -84,7 +84,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QDoubleSpinBox" name="doubleSpinBox"/>
+       <widget class="QDoubleSpinBox" name="inserir_preco"/>
       </item>
      </layout>
     </item>
@@ -98,7 +98,28 @@
        </widget>
       </item>
       <item>
-       <widget class="QComboBox" name="comboBox"/>
+       <widget class="QComboBox" name="inserir_categoria">
+        <item>
+         <property name="text">
+          <string>Entrada</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Principal</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Sobremesa</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Bebida</string>
+         </property>
+        </item>
+       </widget>
       </item>
      </layout>
     </item>

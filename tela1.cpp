@@ -20,10 +20,16 @@ tela1::~tela1()
 
 void tela1::on_pushButton_clicked()
 {
-    teladecardapio form2;
+    // Crie uma instância da tela de cardápio
+    teladecardapio *telaCardapio = new teladecardapio();
 
-    form2.exec();
-}
+    // Chame a função carregarcardapio
+    telaCardapio->carregarcardapio();
+
+    // Exiba a tela de cardápio
+    telaCardapio->show();
+};
+
 
 
 void tela1::on_pushButton_2_clicked()
@@ -31,6 +37,7 @@ void tela1::on_pushButton_2_clicked()
     telacadastrarprato form3;
 
     form3.exec();
+    this -> exec();
 }
 
 
@@ -39,6 +46,7 @@ void tela1::on_pushButton_3_clicked()
     telacontabilizarpedido form4;
 
     form4.exec();
+    this -> exec();
 }
 
 
@@ -47,5 +55,6 @@ void tela1::on_pushButton_4_clicked()
     telarelatorio form5;
 
     form5.exec();
+    this -> exec();
 }
 

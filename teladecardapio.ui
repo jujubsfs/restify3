@@ -16,15 +16,58 @@
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>150</x>
-     <y>110</y>
-     <width>100</width>
-     <height>16</height>
+     <x>50</x>
+     <y>10</y>
+     <width>293</width>
+     <height>42</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe Script</family>
+     <pointsize>20</pointsize>
+     <bold>true</bold>
+    </font>
    </property>
    <property name="text">
     <string>Janela ver cardapio</string>
    </property>
+  </widget>
+  <widget class="QListWidget" name="listWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>60</y>
+     <width>341</width>
+     <height>191</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>260</y>
+     <width>341</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="text">
+       <string>editar prato</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="excluir_prato">
+      <property name="text">
+       <string>excluir prato</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
   </widget>
  </widget>
  <resources/>

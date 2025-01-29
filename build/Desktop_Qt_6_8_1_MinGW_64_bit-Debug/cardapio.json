@@ -1,0 +1,9 @@
+{
+    "cardapio": [
+        {
+            "categoria": "Principal",
+            "nome": "frango a parmegiana",
+            "preco": 10
+        }
+    ]
+}

@@ -1,3 +1,4 @@
+release/database.o
 release/main.o
 release/tela1.o
 release/tela2.o

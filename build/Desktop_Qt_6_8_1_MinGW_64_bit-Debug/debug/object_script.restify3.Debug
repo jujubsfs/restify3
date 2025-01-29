@@ -1,3 +1,4 @@
+debug/database.o
 debug/main.o
 debug/tela1.o
 debug/tela2.o

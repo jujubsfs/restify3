@@ -17,6 +17,11 @@ public:
 
 private:
     Ui::telacadastrarprato *ui;
+
+private slots:
+    void salvardados();
+
+    void on_pushButton_clicked();
 };
 
 #endif // TELACADASTRARPRATO_H

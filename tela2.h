@@ -22,6 +22,7 @@ private slots:
 
 private:
     Ui::tela2 *ui;
+    bool verificarCredenciais(const QString &login, const QString &senha);
 };
 
 #endif // TELA2_H

@@ -14,9 +14,13 @@ class teladecardapio : public QDialog
 public:
     explicit teladecardapio(QWidget *parent = nullptr);
     ~teladecardapio();
+    void carregarcardapio();
+private slots:
+    void on_excluir_prato_clicked();
 
 private:
     Ui::teladecardapio *ui;
+
 };
 
 #endif // TELADECARDAPIO_H
