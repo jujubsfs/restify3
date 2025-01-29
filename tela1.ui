@@ -67,9 +67,9 @@
   <widget class="QLabel" name="bemvindo">
    <property name="geometry">
     <rect>
-     <x>290</x>
+     <x>240</x>
      <y>60</y>
-     <width>274</width>
+     <width>371</width>
      <height>38</height>
     </rect>
    </property>
@@ -159,28 +159,6 @@
    </property>
    <property name="text">
     <string>Inserir Pedido</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="pushButton_4">
-   <property name="geometry">
-    <rect>
-     <x>280</x>
-     <y>440</y>
-     <width>301</width>
-     <height>91</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>10</pointsize>
-     <bold>true</bold>
-    </font>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background-color: rgb(255, 183, 0);</string>
-   </property>
-   <property name="text">
-    <string>Gerar Relatório</string>
    </property>
   </widget>
  </widget>

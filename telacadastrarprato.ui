@@ -6,20 +6,20 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>300</height>
+    <width>850</width>
+    <height>560</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
      <x>20</x>
      <y>10</y>
-     <width>361</width>
-     <height>271</height>
+     <width>801</width>
+     <height>531</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout">
@@ -70,7 +70,11 @@
        </widget>
       </item>
       <item>
-       <widget class="QLineEdit" name="lineEdit"/>
+       <widget class="QLineEdit" name="lineEdit">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
       </item>
      </layout>
     </item>
@@ -98,7 +102,23 @@
        </widget>
       </item>
       <item>
-       <widget class="QComboBox" name="comboBox"/>
+       <widget class="QComboBox" name="comboBox">
+        <item>
+         <property name="text">
+          <string>Entrada</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Prato Principal</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Sobremesa</string>
+         </property>
+        </item>
+       </widget>
       </item>
      </layout>
     </item>

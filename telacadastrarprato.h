@@ -15,6 +15,9 @@ public:
     explicit telacadastrarprato(QWidget *parent = nullptr);
     ~telacadastrarprato();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::telacadastrarprato *ui;
 };
