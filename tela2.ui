@@ -130,8 +130,11 @@ background: rgb(255, 185, 1);</string>
    <property name="text">
     <string/>
    </property>
+   <property name="echoMode">
+    <enum>QLineEdit::EchoMode::Password</enum>
+   </property>
    <property name="placeholderText">
-    <string>Senha</string>
+    <string>senha</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_2">
