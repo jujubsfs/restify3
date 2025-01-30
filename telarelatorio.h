@@ -2,6 +2,7 @@
 #define TELARELATORIO_H
 
 #include <QDialog>
+#include <QJsonArray>
 
 namespace Ui {
 class telarelatorio;
@@ -17,10 +18,12 @@ public:
     void exibirRelatorioCompleto();
     void exibirMaisVendidos();
     void exibirMenosVendidos();
+    void carregarRelatorio();
 
 
 private:
     Ui::telarelatorio *ui;
+    QJsonArray pedidos;
 };
 
 #endif // TELARELATORIO_H

@@ -12,6 +12,11 @@ telarelatorio::telarelatorio(QWidget *parent) :
 {
     ui->setupUi(this);
 
+    // Conectar botões às funções correspondentes
+    connect(ui->pushButton, &QPushButton::clicked, this, &telarelatorio::exibirMenosVendidos);
+    connect(ui->pushButton_2, &QPushButton::clicked, this, &telarelatorio::exibirRelatorioCompleto);
+    connect(ui->pushButton_3, &QPushButton::clicked, this, &telarelatorio::exibirMaisVendidos);
+
     // Carrega os dados de pedidos ao abrir a tela
     carregarRelatorio();
 }
