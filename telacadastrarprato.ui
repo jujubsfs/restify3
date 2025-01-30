@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>300</height>
+    <width>850</width>
+    <height>560</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,129 +16,178 @@
   <property name="styleSheet">
    <string notr="true">background-color: #556B2F</string>
   </property>
-  <widget class="QWidget" name="layoutWidget">
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>70</y>
+     <width>491</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="resources.qrc">:/imagem/logotipo-removebg-preview.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>520</y>
+     <width>93</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 183, 0);</string>
+   </property>
+   <property name="text">
+    <string>Salvar Prato</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>20</y>
+     <width>422</width>
+     <height>52</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe Script</family>
+     <pointsize>20</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Inserir Prato ao Sistema</string>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="inserir_preco">
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>10</y>
-     <width>361</width>
-     <height>271</height>
+     <y>400</y>
+     <width>811</width>
+     <height>31</height>
     </rect>
    </property>
-   <layout class="QVBoxLayout" name="verticalLayout">
-    <item>
-     <layout class="QHBoxLayout" name="horizontalLayout">
-      <item>
-       <spacer name="horizontalSpacer">
-        <property name="orientation">
-         <enum>Qt::Orientation::Horizontal</enum>
-        </property>
-        <property name="sizeHint" stdset="0">
-         <size>
-          <width>40</width>
-          <height>20</height>
-         </size>
-        </property>
-       </spacer>
-      </item>
-      <item>
-       <widget class="QLabel" name="label">
-        <property name="text">
-         <string>Inserir Prato ao Sistema</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <spacer name="horizontalSpacer_2">
-        <property name="orientation">
-         <enum>Qt::Orientation::Horizontal</enum>
-        </property>
-        <property name="sizeHint" stdset="0">
-         <size>
-          <width>40</width>
-          <height>20</height>
-         </size>
-        </property>
-       </spacer>
-      </item>
-     </layout>
-    </item>
-    <item>
-     <layout class="QHBoxLayout" name="horizontalLayout_2">
-      <item>
-       <widget class="QLabel" name="label_2">
-        <property name="text">
-         <string>Nome do Prato</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QLineEdit" name="inserir_nome"/>
-      </item>
-     </layout>
-    </item>
-    <item>
-     <layout class="QHBoxLayout" name="horizontalLayout_3">
-      <item>
-       <widget class="QLabel" name="label_3">
-        <property name="text">
-         <string>Preço</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QDoubleSpinBox" name="inserir_preco"/>
-      </item>
-     </layout>
-    </item>
-    <item>
-     <layout class="QHBoxLayout" name="horizontalLayout_4">
-      <item>
-       <widget class="QLabel" name="label_4">
-        <property name="text">
-         <string>Categoria</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QComboBox" name="inserir_categoria">
-        <item>
-         <property name="text">
-          <string>Entrada</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>Principal</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>Sobremesa</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>Bebida</string>
-         </property>
-        </item>
-       </widget>
-      </item>
-     </layout>
-    </item>
-    <item>
-     <widget class="QPushButton" name="pushButton">
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(255, 183, 0);</string>
-      </property>
-      <property name="text">
-       <string>Salvar Prato</string>
-      </property>
-     </widget>
-    </item>
-   </layout>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 183, 0);</string>
+   </property>
   </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>360</y>
+     <width>161</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Preço</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>280</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Nome do Prato</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="inserir_nome">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>310</y>
+     <width>811</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 183, 0);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>440</y>
+     <width>161</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Categoria</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="inserir_categoria">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>470</y>
+     <width>811</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 183, 0);</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Entrada</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Principal</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Sobremesa</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Bebida</string>
+    </property>
+   </item>
+  </widget>
+  <zorder>label_5</zorder>
+  <zorder>layoutWidget</zorder>
  </widget>
- <resources/>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
  <connections/>
 </ui>

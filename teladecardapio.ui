@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>300</height>
+    <width>850</width>
+    <height>560</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,16 +19,16 @@
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>70</x>
-     <y>10</y>
-     <width>351</width>
-     <height>42</height>
+     <x>270</x>
+     <y>80</y>
+     <width>431</width>
+     <height>71</height>
     </rect>
    </property>
    <property name="font">
     <font>
      <family>Segoe Script</family>
-     <pointsize>20</pointsize>
+     <pointsize>28</pointsize>
      <bold>true</bold>
     </font>
    </property>
@@ -40,43 +40,43 @@
    <property name="geometry">
     <rect>
      <x>30</x>
-     <y>60</y>
-     <width>341</width>
-     <height>191</height>
+     <y>200</y>
+     <width>801</width>
+     <height>291</height>
     </rect>
    </property>
   </widget>
-  <widget class="QWidget" name="layoutWidget">
+  <widget class="QPushButton" name="excluir_prato">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>510</y>
+     <width>391</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 183, 0);</string>
+   </property>
+   <property name="text">
+    <string>excluir prato</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
    <property name="geometry">
     <rect>
      <x>30</x>
-     <y>260</y>
-     <width>341</width>
-     <height>31</height>
+     <y>510</y>
+     <width>391</width>
+     <height>29</height>
     </rect>
    </property>
-   <layout class="QHBoxLayout" name="horizontalLayout">
-    <item>
-     <widget class="QPushButton" name="pushButton_2">
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(255, 183, 0);</string>
-      </property>
-      <property name="text">
-       <string>editar prato</string>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QPushButton" name="excluir_prato">
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(255, 183, 0);</string>
-      </property>
-      <property name="text">
-       <string>excluir prato</string>
-      </property>
-     </widget>
-    </item>
-   </layout>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 183, 0);</string>
+   </property>
+   <property name="text">
+    <string>editar prato</string>
+   </property>
   </widget>
  </widget>
  <resources/>

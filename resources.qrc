@@ -5,6 +5,7 @@
         <file>embaixo.png</file>
         <file>esquerda.png</file>
         <file>logotipo_frigideira.png</file>
+        <file>logotipo-removebg-preview.png</file>
     </qresource>
     <qresource prefix="/imagem2"/>
 </RCC>
