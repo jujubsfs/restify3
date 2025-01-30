@@ -14,6 +14,10 @@ class telarelatorio : public QDialog
 public:
     explicit telarelatorio(QWidget *parent = nullptr);
     ~telarelatorio();
+    void exibirRelatorioCompleto();
+    void exibirMaisVendidos();
+    void exibirMenosVendidos();
+
 
 private:
     Ui::telarelatorio *ui;

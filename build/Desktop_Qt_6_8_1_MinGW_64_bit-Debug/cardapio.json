@@ -14,11 +14,6 @@
             "categoria": "Bebida",
             "nome": "coca cola",
             "preco": 10
-        },
-        {
-            "categoria": "Sobremesa",
-            "nome": "bolo de rolo",
-            "preco": 6
         }
     ]
 }

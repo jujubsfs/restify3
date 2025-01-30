@@ -12,10 +12,9 @@
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QDialog>
-#include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
+#include <QtWidgets/QListWidget>
 #include <QtWidgets/QPushButton>
-#include <QtWidgets/QTableView>
 
 QT_BEGIN_NAMESPACE
 
@@ -26,7 +25,7 @@ public:
     QPushButton *pushButton_2;
     QPushButton *pushButton;
     QLabel *label;
-    QTableView *tableView;
+    QListWidget *listWidget;
 
     void setupUi(QDialog *telarelatorio)
     {
@@ -59,9 +58,9 @@ public:
         font1.setPointSize(16);
         font1.setBold(true);
         label->setFont(font1);
-        tableView = new QTableView(telarelatorio);
-        tableView->setObjectName("tableView");
-        tableView->setGeometry(QRect(12, 199, 831, 351));
+        listWidget = new QListWidget(telarelatorio);
+        listWidget->setObjectName("listWidget");
+        listWidget->setGeometry(QRect(10, 190, 831, 361));
 
         retranslateUi(telarelatorio);
 

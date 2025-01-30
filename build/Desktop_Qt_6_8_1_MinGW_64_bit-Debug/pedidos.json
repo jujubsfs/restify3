@@ -21,6 +21,19 @@
                     "quantidade": 10
                 }
             ]
+        },
+        {
+            "cliente": "Pedido 3",
+            "itens": [
+                {
+                    "nome": "frango a parmegiana",
+                    "quantidade": 2
+                },
+                {
+                    "nome": "coca cola",
+                    "quantidade": 2
+                }
+            ]
         }
     ]
 }

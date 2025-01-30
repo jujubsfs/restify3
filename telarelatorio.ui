@@ -99,13 +99,13 @@
     <string>Relatório Atualizado dos Pedidos</string>
    </property>
   </widget>
-  <widget class="QTableView" name="tableView">
+  <widget class="QListWidget" name="listWidget">
    <property name="geometry">
     <rect>
-     <x>12</x>
-     <y>199</y>
+     <x>10</x>
+     <y>190</y>
      <width>831</width>
-     <height>351</height>
+     <height>361</height>
     </rect>
    </property>
   </widget>
