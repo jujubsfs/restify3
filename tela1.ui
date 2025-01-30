@@ -73,35 +73,20 @@
   <widget class="QLabel" name="bemvindo">
    <property name="geometry">
     <rect>
-<<<<<<< Updated upstream
      <x>200</x>
      <y>40</y>
      <width>461</width>
      <height>81</height>
-=======
-     <x>290</x>
-     <y>60</y>
-     <width>284</width>
-     <height>33</height>
->>>>>>> Stashed changes
     </rect>
    </property>
    <property name="font">
     <font>
-<<<<<<< Updated upstream
      <family>Segoe Script</family>
      <pointsize>22</pointsize>
-=======
-     <family>Century Gothic</family>
-     <pointsize>20</pointsize>
-     <italic>true</italic>
-     <bold>true</bold>
->>>>>>> Stashed changes
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">color: rgb(255, 183, 0);
-</string>
+    <string notr="true">color: rgb(255, 185, 1);</string>
    </property>
    <property name="text">
     <string>Bem Vindo ao Restify!</string>
@@ -125,21 +110,12 @@
    <property name="font">
     <font>
      <family>Segoe Script</family>
-<<<<<<< Updated upstream
      <pointsize>10</pointsize>
-=======
-     <pointsize>16</pointsize>
->>>>>>> Stashed changes
      <bold>true</bold>
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">color: rgb(255, 183, 0);
-background-color: rgb(255, 255, 255);
-border: 1px solid gray;
-border-radius: 10px;
-padding: 5px;
-</string>
+    <string notr="true">background-color: rgb(255, 183, 0);</string>
    </property>
    <property name="text">
     <string>Ver Cardápio</string>
@@ -160,21 +136,12 @@ padding: 5px;
    <property name="font">
     <font>
      <family>Segoe Script</family>
-<<<<<<< Updated upstream
      <pointsize>10</pointsize>
-=======
-     <pointsize>16</pointsize>
->>>>>>> Stashed changes
      <bold>true</bold>
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">color: rgb(255, 183, 0);
-background-color: rgb(255, 255, 255);
-border: 1px solid gray;
-border-radius: 10px;
-padding: 5px;
-</string>
+    <string notr="true">background-color: rgb(255, 183, 0);</string>
    </property>
    <property name="text">
     <string>Inserir Prato</string>
@@ -192,21 +159,12 @@ padding: 5px;
    <property name="font">
     <font>
      <family>Segoe Script</family>
-<<<<<<< Updated upstream
      <pointsize>10</pointsize>
-=======
-     <pointsize>16</pointsize>
->>>>>>> Stashed changes
      <bold>true</bold>
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">color: rgb(255, 183, 0);
-background-color: rgb(255, 255, 255);
-border: 1px solid gray;
-border-radius: 10px;
-padding: 5px;
-</string>
+    <string notr="true">background-color: rgb(255, 183, 0);</string>
    </property>
    <property name="text">
     <string>Inserir Pedido</string>
@@ -224,21 +182,12 @@ padding: 5px;
    <property name="font">
     <font>
      <family>Segoe Script</family>
-<<<<<<< Updated upstream
      <pointsize>10</pointsize>
-=======
-     <pointsize>16</pointsize>
->>>>>>> Stashed changes
      <bold>true</bold>
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">color: rgb(255, 183, 0);
-background-color: rgb(255, 255, 255);
-border: 1px solid gray;
-border-radius: 10px;
-padding: 5px;
-</string>
+    <string notr="true">background-color: rgb(255, 183, 0);</string>
    </property>
    <property name="text">
     <string>Gerar Relatório</string>

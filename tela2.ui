@@ -76,19 +76,15 @@
    <property name="font">
     <font>
      <family>Segoe Script</family>
-     <pointsize>16</pointsize>
+     <pointsize>12</pointsize>
      <bold>true</bold>
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">color: rgb(255, 183, 0);
-background-color: rgb(253, 236, 208);
-border: 1px solid gray;
-border-radius: 10px;
-padding: 5px;</string>
+    <string notr="true">background-color: rgb(255,249,87)</string>
    </property>
    <property name="text">
-    <string>começar!</string>
+    <string>Começar</string>
    </property>
   </widget>
   <widget class="QLineEdit" name="lineEdit">
@@ -99,11 +95,6 @@ padding: 5px;</string>
      <width>201</width>
      <height>31</height>
     </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>Segoe Script</family>
-    </font>
    </property>
    <property name="styleSheet">
     <string notr="true">border: 1px solid gray;
@@ -126,11 +117,6 @@ background: rgb(255, 185, 1);</string>
      <width>201</width>
      <height>31</height>
     </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>Segoe Script</family>
-    </font>
    </property>
    <property name="styleSheet">
     <string notr="true">border: 1px solid gray;
