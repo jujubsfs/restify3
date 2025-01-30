@@ -13,12 +13,15 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #556B2F</string>
+  </property>
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>50</x>
+     <x>70</x>
      <y>10</y>
-     <width>293</width>
+     <width>351</width>
      <height>42</height>
     </rect>
    </property>
@@ -30,7 +33,7 @@
     </font>
    </property>
    <property name="text">
-    <string>Janela ver cardapio</string>
+    <string> ver cardápio</string>
    </property>
   </widget>
   <widget class="QListWidget" name="listWidget">
@@ -43,18 +46,21 @@
     </rect>
    </property>
   </widget>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
      <x>30</x>
      <y>260</y>
      <width>341</width>
-     <height>26</height>
+     <height>31</height>
     </rect>
    </property>
    <layout class="QHBoxLayout" name="horizontalLayout">
     <item>
      <widget class="QPushButton" name="pushButton_2">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 183, 0);</string>
+      </property>
       <property name="text">
        <string>editar prato</string>
       </property>
@@ -62,6 +68,9 @@
     </item>
     <item>
      <widget class="QPushButton" name="excluir_prato">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 183, 0);</string>
+      </property>
       <property name="text">
        <string>excluir prato</string>
       </property>

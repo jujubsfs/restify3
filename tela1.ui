@@ -25,6 +25,12 @@
      <height>341</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <family>Segoe Script</family>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
    <property name="text">
     <string/>
    </property>
@@ -67,16 +73,16 @@
   <widget class="QLabel" name="bemvindo">
    <property name="geometry">
     <rect>
-     <x>290</x>
-     <y>60</y>
-     <width>274</width>
-     <height>38</height>
+     <x>200</x>
+     <y>40</y>
+     <width>461</width>
+     <height>81</height>
     </rect>
    </property>
    <property name="font">
     <font>
-     <family>Comic Sans MS</family>
-     <pointsize>20</pointsize>
+     <family>Segoe Script</family>
+     <pointsize>22</pointsize>
     </font>
    </property>
    <property name="styleSheet">
@@ -103,6 +109,7 @@
    </property>
    <property name="font">
     <font>
+     <family>Segoe Script</family>
      <pointsize>10</pointsize>
      <bold>true</bold>
     </font>
@@ -128,6 +135,7 @@
    </property>
    <property name="font">
     <font>
+     <family>Segoe Script</family>
      <pointsize>10</pointsize>
      <bold>true</bold>
     </font>
@@ -150,6 +158,7 @@
    </property>
    <property name="font">
     <font>
+     <family>Segoe Script</family>
      <pointsize>10</pointsize>
      <bold>true</bold>
     </font>
@@ -172,6 +181,7 @@
    </property>
    <property name="font">
     <font>
+     <family>Segoe Script</family>
      <pointsize>10</pointsize>
      <bold>true</bold>
     </font>
@@ -183,6 +193,14 @@
     <string>Gerar Relatório</string>
    </property>
   </widget>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>pushButton_2</zorder>
+  <zorder>pushButton_3</zorder>
+  <zorder>pushButton_4</zorder>
+  <zorder>bemvindo</zorder>
  </widget>
  <resources>
   <include location="resources.qrc"/>
