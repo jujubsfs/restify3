@@ -12,11 +12,9 @@
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QDialog>
-#include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QListWidget>
 #include <QtWidgets/QPushButton>
-#include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
 
@@ -25,43 +23,34 @@ class Ui_teladecardapio
 public:
     QLabel *label;
     QListWidget *listWidget;
-    QWidget *widget;
-    QHBoxLayout *horizontalLayout;
-    QPushButton *pushButton_2;
     QPushButton *excluir_prato;
+    QPushButton *editar_prato;
 
     void setupUi(QDialog *teladecardapio)
     {
         if (teladecardapio->objectName().isEmpty())
             teladecardapio->setObjectName("teladecardapio");
-        teladecardapio->resize(400, 300);
+        teladecardapio->resize(850, 560);
+        teladecardapio->setStyleSheet(QString::fromUtf8("background-color: #556B2F"));
         label = new QLabel(teladecardapio);
         label->setObjectName("label");
-        label->setGeometry(QRect(50, 10, 293, 42));
+        label->setGeometry(QRect(270, 80, 431, 71));
         QFont font;
         font.setFamilies({QString::fromUtf8("Segoe Script")});
-        font.setPointSize(20);
+        font.setPointSize(28);
         font.setBold(true);
         label->setFont(font);
         listWidget = new QListWidget(teladecardapio);
         listWidget->setObjectName("listWidget");
-        listWidget->setGeometry(QRect(30, 60, 341, 191));
-        widget = new QWidget(teladecardapio);
-        widget->setObjectName("widget");
-        widget->setGeometry(QRect(30, 260, 341, 26));
-        horizontalLayout = new QHBoxLayout(widget);
-        horizontalLayout->setObjectName("horizontalLayout");
-        horizontalLayout->setContentsMargins(0, 0, 0, 0);
-        pushButton_2 = new QPushButton(widget);
-        pushButton_2->setObjectName("pushButton_2");
-
-        horizontalLayout->addWidget(pushButton_2);
-
-        excluir_prato = new QPushButton(widget);
+        listWidget->setGeometry(QRect(30, 200, 801, 291));
+        excluir_prato = new QPushButton(teladecardapio);
         excluir_prato->setObjectName("excluir_prato");
-
-        horizontalLayout->addWidget(excluir_prato);
-
+        excluir_prato->setGeometry(QRect(440, 510, 391, 29));
+        excluir_prato->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 183, 0);"));
+        editar_prato = new QPushButton(teladecardapio);
+        editar_prato->setObjectName("editar_prato");
+        editar_prato->setGeometry(QRect(30, 510, 391, 29));
+        editar_prato->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 183, 0);"));
 
         retranslateUi(teladecardapio);
 
@@ -71,9 +60,9 @@ public:
     void retranslateUi(QDialog *teladecardapio)
     {
         teladecardapio->setWindowTitle(QCoreApplication::translate("teladecardapio", "Dialog", nullptr));
-        label->setText(QCoreApplication::translate("teladecardapio", "Janela ver cardapio", nullptr));
-        pushButton_2->setText(QCoreApplication::translate("teladecardapio", "editar prato", nullptr));
+        label->setText(QCoreApplication::translate("teladecardapio", " ver card\303\241pio", nullptr));
         excluir_prato->setText(QCoreApplication::translate("teladecardapio", "excluir prato", nullptr));
+        editar_prato->setText(QCoreApplication::translate("teladecardapio", "editar prato", nullptr));
     } // retranslateUi
 
 };

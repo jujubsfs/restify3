@@ -1,0 +1,26 @@
+{
+    "pedidos": [
+        {
+            "cliente": "Pedido 1",
+            "itens": [
+            ]
+        },
+        {
+            "cliente": "Pedido 2",
+            "itens": [
+                {
+                    "nome": "frango a parmegiana",
+                    "quantidade": 5
+                },
+                {
+                    "nome": "coca cola",
+                    "quantidade": 5
+                },
+                {
+                    "nome": "bolo de rolo",
+                    "quantidade": 10
+                }
+            ]
+        }
+    ]
+}

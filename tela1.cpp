@@ -17,44 +17,35 @@ tela1::~tela1()
     delete ui;
 }
 
-
+// Tela de cardápio
 void tela1::on_pushButton_clicked()
 {
-    // Crie uma instância da tela de cardápio
-    teladecardapio *telaCardapio = new teladecardapio();
-
-    // Chame a função carregarcardapio
+    teladecardapio *telaCardapio = new teladecardapio(this);
+    telaCardapio->setAttribute(Qt::WA_DeleteOnClose); // Libera memória ao fechar
     telaCardapio->carregarcardapio();
-
-    // Exiba a tela de cardápio
     telaCardapio->show();
-};
+}
 
-
-
+// Tela de cadastros
 void tela1::on_pushButton_2_clicked()
 {
-    telacadastrarprato form3;
-
-    form3.exec();
-    this -> exec();
+    telacadastrarprato *telaCadastrarPrato = new telacadastrarprato(this);
+    telaCadastrarPrato->setAttribute(Qt::WA_DeleteOnClose);
+    telaCadastrarPrato->show();
 }
 
-
+// Tela de pedidos
 void tela1::on_pushButton_3_clicked()
 {
-    telacontabilizarpedido form4;
-
-    form4.exec();
-    this -> exec();
+    telacontabilizarpedido *form4 = new telacontabilizarpedido(this);
+    form4->setAttribute(Qt::WA_DeleteOnClose);
+    form4->show();
 }
 
-
+// Tela de relatório
 void tela1::on_pushButton_4_clicked()
 {
-    telarelatorio form5;
-
-    form5.exec();
-    this -> exec();
+    telarelatorio *form5 = new telarelatorio(this);
+    form5->setAttribute(Qt::WA_DeleteOnClose);
+    form5->show();
 }
-

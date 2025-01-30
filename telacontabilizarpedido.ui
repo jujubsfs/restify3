@@ -100,7 +100,7 @@
     <string notr="true">background-color: rgb(255, 183, 0);</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="adicionarAoPedido">
    <property name="geometry">
     <rect>
      <x>20</x>
@@ -135,25 +135,12 @@
     <string>Pedido Atualizado</string>
    </property>
   </widget>
-  <widget class="QTableView" name="tableView">
+  <widget class="QPushButton" name="confirmarPedido">
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>340</y>
-     <width>811</width>
-     <height>151</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background-color: rgb(255, 183, 0);</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="pushButton_2">
-   <property name="geometry">
-    <rect>
-     <x>360</x>
      <y>510</y>
-     <width>125</width>
+     <width>811</width>
      <height>29</height>
     </rect>
    </property>
@@ -162,6 +149,19 @@
    </property>
    <property name="text">
     <string>Confirmar Pedido</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="listWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>340</y>
+     <width>811</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 183, 0);</string>
    </property>
   </widget>
  </widget>

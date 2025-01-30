@@ -18,6 +18,8 @@ public:
 private slots:
     void on_excluir_prato_clicked();
 
+    void on_editar_prato_clicked();
+
 private:
     Ui::teladecardapio *ui;
 

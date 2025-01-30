@@ -14,13 +14,16 @@ class telacadastrarprato : public QDialog
 public:
     explicit telacadastrarprato(QWidget *parent = nullptr);
     ~telacadastrarprato();
+    void setModoEdicao(int indicePrato, const QString &nome, double preco, const QString &categoria); // Novo método
+    void salvardados(); // Método existente
+
 
 private:
     Ui::telacadastrarprato *ui;
+    int indicePrato; // Armazena o índice do prato em edição
+    bool modoEdicao; // Indica se está no modo de edição
 
 private slots:
-    void salvardados();
-
     void on_pushButton_clicked();
 };
 

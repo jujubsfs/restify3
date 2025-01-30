@@ -13,139 +13,75 @@
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QComboBox>
 #include <QtWidgets/QDialog>
-#include <QtWidgets/QHBoxLayout>
-#include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
+#include <QtWidgets/QListWidget>
 #include <QtWidgets/QPushButton>
-#include <QtWidgets/QSpacerItem>
 #include <QtWidgets/QSpinBox>
-#include <QtWidgets/QTableView>
-#include <QtWidgets/QVBoxLayout>
-#include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
 
 class Ui_telacontabilizarpedido
 {
 public:
-    QWidget *widget;
-    QVBoxLayout *verticalLayout_2;
-    QVBoxLayout *verticalLayout;
-    QHBoxLayout *horizontalLayout;
-    QSpacerItem *horizontalSpacer;
     QLabel *label;
-    QSpacerItem *horizontalSpacer_2;
-    QHBoxLayout *horizontalLayout_2;
     QLabel *label_2;
     QComboBox *comboBox;
-    QHBoxLayout *horizontalLayout_3;
     QLabel *label_3;
     QSpinBox *spinBox;
-    QPushButton *pushButton;
-    QHBoxLayout *horizontalLayout_4;
-    QSpacerItem *horizontalSpacer_3;
+    QPushButton *adicionarAoPedido;
     QLabel *label_4;
-    QSpacerItem *horizontalSpacer_4;
-    QTableView *tableView;
-    QPushButton *pushButton_2;
+    QPushButton *confirmarPedido;
+    QListWidget *listWidget;
 
     void setupUi(QDialog *telacontabilizarpedido)
     {
         if (telacontabilizarpedido->objectName().isEmpty())
             telacontabilizarpedido->setObjectName("telacontabilizarpedido");
-        telacontabilizarpedido->resize(505, 337);
-        widget = new QWidget(telacontabilizarpedido);
-        widget->setObjectName("widget");
-        widget->setGeometry(QRect(10, 10, 481, 311));
-        verticalLayout_2 = new QVBoxLayout(widget);
-        verticalLayout_2->setObjectName("verticalLayout_2");
-        verticalLayout_2->setContentsMargins(0, 0, 0, 0);
-        verticalLayout = new QVBoxLayout();
-        verticalLayout->setObjectName("verticalLayout");
-        horizontalLayout = new QHBoxLayout();
-        horizontalLayout->setObjectName("horizontalLayout");
-        horizontalSpacer = new QSpacerItem(40, 20, QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Minimum);
-
-        horizontalLayout->addItem(horizontalSpacer);
-
-        label = new QLabel(widget);
+        telacontabilizarpedido->resize(850, 560);
+        telacontabilizarpedido->setStyleSheet(QString::fromUtf8("background-color: #556B2F"));
+        label = new QLabel(telacontabilizarpedido);
         label->setObjectName("label");
-
-        horizontalLayout->addWidget(label);
-
-        horizontalSpacer_2 = new QSpacerItem(40, 20, QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Minimum);
-
-        horizontalLayout->addItem(horizontalSpacer_2);
-
-
-        verticalLayout->addLayout(horizontalLayout);
-
-        horizontalLayout_2 = new QHBoxLayout();
-        horizontalLayout_2->setObjectName("horizontalLayout_2");
-        label_2 = new QLabel(widget);
+        label->setGeometry(QRect(210, 20, 501, 41));
+        QFont font;
+        font.setFamilies({QString::fromUtf8("Segoe Script")});
+        font.setPointSize(20);
+        font.setBold(true);
+        label->setFont(font);
+        label_2 = new QLabel(telacontabilizarpedido);
         label_2->setObjectName("label_2");
-
-        horizontalLayout_2->addWidget(label_2);
-
-        comboBox = new QComboBox(widget);
+        label_2->setGeometry(QRect(20, 90, 191, 21));
+        QFont font1;
+        font1.setPointSize(10);
+        font1.setBold(true);
+        label_2->setFont(font1);
+        comboBox = new QComboBox(telacontabilizarpedido);
         comboBox->setObjectName("comboBox");
-
-        horizontalLayout_2->addWidget(comboBox);
-
-
-        verticalLayout->addLayout(horizontalLayout_2);
-
-        horizontalLayout_3 = new QHBoxLayout();
-        horizontalLayout_3->setObjectName("horizontalLayout_3");
-        label_3 = new QLabel(widget);
+        comboBox->setGeometry(QRect(20, 120, 811, 31));
+        comboBox->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 255);"));
+        label_3 = new QLabel(telacontabilizarpedido);
         label_3->setObjectName("label_3");
-
-        horizontalLayout_3->addWidget(label_3);
-
-        spinBox = new QSpinBox(widget);
+        label_3->setGeometry(QRect(20, 180, 171, 16));
+        label_3->setFont(font1);
+        spinBox = new QSpinBox(telacontabilizarpedido);
         spinBox->setObjectName("spinBox");
-
-        horizontalLayout_3->addWidget(spinBox);
-
-
-        verticalLayout->addLayout(horizontalLayout_3);
-
-        pushButton = new QPushButton(widget);
-        pushButton->setObjectName("pushButton");
-
-        verticalLayout->addWidget(pushButton);
-
-        horizontalLayout_4 = new QHBoxLayout();
-        horizontalLayout_4->setObjectName("horizontalLayout_4");
-        horizontalSpacer_3 = new QSpacerItem(40, 20, QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Minimum);
-
-        horizontalLayout_4->addItem(horizontalSpacer_3);
-
-        label_4 = new QLabel(widget);
+        spinBox->setGeometry(QRect(20, 210, 811, 31));
+        spinBox->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 183, 0);"));
+        adicionarAoPedido = new QPushButton(telacontabilizarpedido);
+        adicionarAoPedido->setObjectName("adicionarAoPedido");
+        adicionarAoPedido->setGeometry(QRect(20, 260, 811, 29));
+        adicionarAoPedido->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 255);"));
+        label_4 = new QLabel(telacontabilizarpedido);
         label_4->setObjectName("label_4");
-
-        horizontalLayout_4->addWidget(label_4);
-
-        horizontalSpacer_4 = new QSpacerItem(40, 20, QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Minimum);
-
-        horizontalLayout_4->addItem(horizontalSpacer_4);
-
-
-        verticalLayout->addLayout(horizontalLayout_4);
-
-
-        verticalLayout_2->addLayout(verticalLayout);
-
-        tableView = new QTableView(widget);
-        tableView->setObjectName("tableView");
-
-        verticalLayout_2->addWidget(tableView);
-
-        pushButton_2 = new QPushButton(widget);
-        pushButton_2->setObjectName("pushButton_2");
-
-        verticalLayout_2->addWidget(pushButton_2);
-
+        label_4->setGeometry(QRect(20, 310, 171, 20));
+        label_4->setFont(font1);
+        confirmarPedido = new QPushButton(telacontabilizarpedido);
+        confirmarPedido->setObjectName("confirmarPedido");
+        confirmarPedido->setGeometry(QRect(20, 510, 811, 29));
+        confirmarPedido->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 255);"));
+        listWidget = new QListWidget(telacontabilizarpedido);
+        listWidget->setObjectName("listWidget");
+        listWidget->setGeometry(QRect(20, 340, 811, 161));
+        listWidget->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 183, 0);"));
 
         retranslateUi(telacontabilizarpedido);
 
@@ -158,9 +94,9 @@ public:
         label->setText(QCoreApplication::translate("telacontabilizarpedido", "registrar pedido no sistema", nullptr));
         label_2->setText(QCoreApplication::translate("telacontabilizarpedido", "Pratos Dispon\303\255veis", nullptr));
         label_3->setText(QCoreApplication::translate("telacontabilizarpedido", "Quantidade", nullptr));
-        pushButton->setText(QCoreApplication::translate("telacontabilizarpedido", "Adicionar ao Pedido", nullptr));
+        adicionarAoPedido->setText(QCoreApplication::translate("telacontabilizarpedido", "Adicionar ao Pedido", nullptr));
         label_4->setText(QCoreApplication::translate("telacontabilizarpedido", "Pedido Atualizado", nullptr));
-        pushButton_2->setText(QCoreApplication::translate("telacontabilizarpedido", "Confirmar Pedido", nullptr));
+        confirmarPedido->setText(QCoreApplication::translate("telacontabilizarpedido", "Confirmar Pedido", nullptr));
     } // retranslateUi
 
 };

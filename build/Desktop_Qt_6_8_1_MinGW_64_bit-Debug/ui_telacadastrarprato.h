@@ -14,119 +14,81 @@
 #include <QtWidgets/QComboBox>
 #include <QtWidgets/QDialog>
 #include <QtWidgets/QDoubleSpinBox>
-#include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QPushButton>
-#include <QtWidgets/QSpacerItem>
-#include <QtWidgets/QVBoxLayout>
-#include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
 
 class Ui_telacadastrarprato
 {
 public:
-    QWidget *layoutWidget;
-    QVBoxLayout *verticalLayout;
-    QHBoxLayout *horizontalLayout;
-    QSpacerItem *horizontalSpacer;
+    QLabel *label_5;
+    QPushButton *pushButton;
     QLabel *label;
-    QSpacerItem *horizontalSpacer_2;
-    QHBoxLayout *horizontalLayout_2;
+    QDoubleSpinBox *inserir_preco;
+    QLabel *label_3;
     QLabel *label_2;
     QLineEdit *inserir_nome;
-    QHBoxLayout *horizontalLayout_3;
-    QLabel *label_3;
-    QDoubleSpinBox *inserir_preco;
-    QHBoxLayout *horizontalLayout_4;
     QLabel *label_4;
     QComboBox *inserir_categoria;
-    QPushButton *pushButton;
 
     void setupUi(QDialog *telacadastrarprato)
     {
         if (telacadastrarprato->objectName().isEmpty())
             telacadastrarprato->setObjectName("telacadastrarprato");
-        telacadastrarprato->resize(400, 300);
-        layoutWidget = new QWidget(telacadastrarprato);
-        layoutWidget->setObjectName("layoutWidget");
-        layoutWidget->setGeometry(QRect(20, 10, 361, 271));
-        verticalLayout = new QVBoxLayout(layoutWidget);
-        verticalLayout->setObjectName("verticalLayout");
-        verticalLayout->setContentsMargins(0, 0, 0, 0);
-        horizontalLayout = new QHBoxLayout();
-        horizontalLayout->setObjectName("horizontalLayout");
-        horizontalSpacer = new QSpacerItem(40, 20, QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Minimum);
-
-        horizontalLayout->addItem(horizontalSpacer);
-
-        label = new QLabel(layoutWidget);
+        telacadastrarprato->resize(850, 560);
+        telacadastrarprato->setStyleSheet(QString::fromUtf8("background-color: #556B2F"));
+        label_5 = new QLabel(telacadastrarprato);
+        label_5->setObjectName("label_5");
+        label_5->setGeometry(QRect(210, 70, 491, 201));
+        label_5->setPixmap(QPixmap(QString::fromUtf8(":/imagem/logotipo-removebg-preview.png")));
+        pushButton = new QPushButton(telacadastrarprato);
+        pushButton->setObjectName("pushButton");
+        pushButton->setGeometry(QRect(370, 520, 93, 29));
+        pushButton->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 183, 0);"));
+        label = new QLabel(telacadastrarprato);
         label->setObjectName("label");
-
-        horizontalLayout->addWidget(label);
-
-        horizontalSpacer_2 = new QSpacerItem(40, 20, QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Minimum);
-
-        horizontalLayout->addItem(horizontalSpacer_2);
-
-
-        verticalLayout->addLayout(horizontalLayout);
-
-        horizontalLayout_2 = new QHBoxLayout();
-        horizontalLayout_2->setObjectName("horizontalLayout_2");
-        label_2 = new QLabel(layoutWidget);
-        label_2->setObjectName("label_2");
-
-        horizontalLayout_2->addWidget(label_2);
-
-        inserir_nome = new QLineEdit(layoutWidget);
-        inserir_nome->setObjectName("inserir_nome");
-
-        horizontalLayout_2->addWidget(inserir_nome);
-
-
-        verticalLayout->addLayout(horizontalLayout_2);
-
-        horizontalLayout_3 = new QHBoxLayout();
-        horizontalLayout_3->setObjectName("horizontalLayout_3");
-        label_3 = new QLabel(layoutWidget);
-        label_3->setObjectName("label_3");
-
-        horizontalLayout_3->addWidget(label_3);
-
-        inserir_preco = new QDoubleSpinBox(layoutWidget);
+        label->setGeometry(QRect(230, 20, 422, 52));
+        QFont font;
+        font.setFamilies({QString::fromUtf8("Segoe Script")});
+        font.setPointSize(20);
+        font.setBold(true);
+        label->setFont(font);
+        inserir_preco = new QDoubleSpinBox(telacadastrarprato);
         inserir_preco->setObjectName("inserir_preco");
-
-        horizontalLayout_3->addWidget(inserir_preco);
-
-
-        verticalLayout->addLayout(horizontalLayout_3);
-
-        horizontalLayout_4 = new QHBoxLayout();
-        horizontalLayout_4->setObjectName("horizontalLayout_4");
-        label_4 = new QLabel(layoutWidget);
+        inserir_preco->setGeometry(QRect(20, 400, 811, 31));
+        inserir_preco->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 183, 0);"));
+        label_3 = new QLabel(telacadastrarprato);
+        label_3->setObjectName("label_3");
+        label_3->setGeometry(QRect(20, 360, 161, 21));
+        QFont font1;
+        font1.setPointSize(10);
+        font1.setBold(true);
+        label_3->setFont(font1);
+        label_2 = new QLabel(telacadastrarprato);
+        label_2->setObjectName("label_2");
+        label_2->setGeometry(QRect(20, 280, 161, 31));
+        QFont font2;
+        font2.setBold(true);
+        label_2->setFont(font2);
+        inserir_nome = new QLineEdit(telacadastrarprato);
+        inserir_nome->setObjectName("inserir_nome");
+        inserir_nome->setGeometry(QRect(20, 310, 811, 31));
+        inserir_nome->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 183, 0);"));
+        label_4 = new QLabel(telacadastrarprato);
         label_4->setObjectName("label_4");
-
-        horizontalLayout_4->addWidget(label_4);
-
-        inserir_categoria = new QComboBox(layoutWidget);
+        label_4->setGeometry(QRect(20, 440, 161, 16));
+        label_4->setFont(font1);
+        inserir_categoria = new QComboBox(telacadastrarprato);
         inserir_categoria->addItem(QString());
         inserir_categoria->addItem(QString());
         inserir_categoria->addItem(QString());
         inserir_categoria->addItem(QString());
         inserir_categoria->setObjectName("inserir_categoria");
-
-        horizontalLayout_4->addWidget(inserir_categoria);
-
-
-        verticalLayout->addLayout(horizontalLayout_4);
-
-        pushButton = new QPushButton(layoutWidget);
-        pushButton->setObjectName("pushButton");
-
-        verticalLayout->addWidget(pushButton);
-
+        inserir_categoria->setGeometry(QRect(20, 470, 811, 31));
+        inserir_categoria->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 183, 0);"));
+        label_5->raise();
 
         retranslateUi(telacadastrarprato);
 
@@ -136,16 +98,17 @@ public:
     void retranslateUi(QDialog *telacadastrarprato)
     {
         telacadastrarprato->setWindowTitle(QCoreApplication::translate("telacadastrarprato", "Dialog", nullptr));
+        label_5->setText(QString());
+        pushButton->setText(QCoreApplication::translate("telacadastrarprato", "Salvar Prato", nullptr));
         label->setText(QCoreApplication::translate("telacadastrarprato", "Inserir Prato ao Sistema", nullptr));
-        label_2->setText(QCoreApplication::translate("telacadastrarprato", "Nome do Prato", nullptr));
         label_3->setText(QCoreApplication::translate("telacadastrarprato", "Pre\303\247o", nullptr));
+        label_2->setText(QCoreApplication::translate("telacadastrarprato", "Nome do Prato", nullptr));
         label_4->setText(QCoreApplication::translate("telacadastrarprato", "Categoria", nullptr));
         inserir_categoria->setItemText(0, QCoreApplication::translate("telacadastrarprato", "Entrada", nullptr));
         inserir_categoria->setItemText(1, QCoreApplication::translate("telacadastrarprato", "Principal", nullptr));
         inserir_categoria->setItemText(2, QCoreApplication::translate("telacadastrarprato", "Sobremesa", nullptr));
         inserir_categoria->setItemText(3, QCoreApplication::translate("telacadastrarprato", "Bebida", nullptr));
 
-        pushButton->setText(QCoreApplication::translate("telacadastrarprato", "Salvar Prato", nullptr));
     } // retranslateUi
 
 };

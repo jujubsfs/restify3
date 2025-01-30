@@ -26,30 +26,30 @@ public:
     QLabel *label_4;
     QPushButton *pushButton_2;
     QLineEdit *lineEdit;
-    QLabel *label_6;
     QLineEdit *lineEdit_2;
+    QLabel *label_2;
 
     void setupUi(QDialog *tela2)
     {
         if (tela2->objectName().isEmpty())
             tela2->setObjectName("tela2");
-        tela2->resize(809, 441);
+        tela2->resize(879, 522);
         tela2->setStyleSheet(QString::fromUtf8("background-color: #556B2F"));
         label = new QLabel(tela2);
         label->setObjectName("label");
-        label->setGeometry(QRect(600, -60, 381, 341));
+        label->setGeometry(QRect(670, -50, 381, 341));
         label->setPixmap(QPixmap(QString::fromUtf8(":/imagem/em cima.png")));
         label_3 = new QLabel(tela2);
         label_3->setObjectName("label_3");
-        label_3->setGeometry(QRect(570, 230, 471, 231));
+        label_3->setGeometry(QRect(600, 310, 471, 231));
         label_3->setPixmap(QPixmap(QString::fromUtf8(":/imagem/embaixo.png")));
         label_4 = new QLabel(tela2);
         label_4->setObjectName("label_4");
-        label_4->setGeometry(QRect(-20, 110, 261, 461));
+        label_4->setGeometry(QRect(-10, 20, 261, 461));
         label_4->setPixmap(QPixmap(QString::fromUtf8(":/imagem/esquerda.png")));
         pushButton_2 = new QPushButton(tela2);
         pushButton_2->setObjectName("pushButton_2");
-        pushButton_2->setGeometry(QRect(320, 350, 161, 41));
+        pushButton_2->setGeometry(QRect(380, 420, 161, 41));
         QFont font;
         font.setFamilies({QString::fromUtf8("Segoe Script")});
         font.setPointSize(12);
@@ -58,27 +58,30 @@ public:
         pushButton_2->setStyleSheet(QString::fromUtf8("background-color: rgb(255,249,87)"));
         lineEdit = new QLineEdit(tela2);
         lineEdit->setObjectName("lineEdit");
-        lineEdit->setGeometry(QRect(300, 230, 201, 31));
+        lineEdit->setGeometry(QRect(360, 330, 201, 31));
         lineEdit->setStyleSheet(QString::fromUtf8("border: 1px solid gray;\n"
 "border-radius: 10px;\n"
 "padding: 5px;\n"
 "background: rgb(255, 185, 1);"));
-        label_6 = new QLabel(tela2);
-        label_6->setObjectName("label_6");
-        label_6->setGeometry(QRect(290, 120, 216, 67));
-        QFont font1;
-        font1.setFamilies({QString::fromUtf8("Comic Sans MS")});
-        font1.setPointSize(36);
-        font1.setItalic(true);
-        label_6->setFont(font1);
-        label_6->setStyleSheet(QString::fromUtf8("color: rgb(245, 233, 195)"));
         lineEdit_2 = new QLineEdit(tela2);
         lineEdit_2->setObjectName("lineEdit_2");
-        lineEdit_2->setGeometry(QRect(300, 280, 201, 31));
+        lineEdit_2->setGeometry(QRect(360, 370, 201, 31));
         lineEdit_2->setStyleSheet(QString::fromUtf8("border: 1px solid gray;\n"
 "border-radius: 10px;\n"
 "padding: 5px;\n"
 "background: rgb(255, 185, 1);"));
+        lineEdit_2->setEchoMode(QLineEdit::EchoMode::Password);
+        label_2 = new QLabel(tela2);
+        label_2->setObjectName("label_2");
+        label_2->setGeometry(QRect(270, 40, 341, 271));
+        label_2->setPixmap(QPixmap(QString::fromUtf8(":/imagem/logotipo_frigideira.png")));
+        label_3->raise();
+        label_4->raise();
+        pushButton_2->raise();
+        lineEdit->raise();
+        lineEdit_2->raise();
+        label->raise();
+        label_2->raise();
 
         retranslateUi(tela2);
 
@@ -94,10 +97,10 @@ public:
         pushButton_2->setText(QCoreApplication::translate("tela2", "Come\303\247ar", nullptr));
         lineEdit->setText(QString());
         lineEdit->setPlaceholderText(QCoreApplication::translate("tela2", "Login", nullptr));
-        label_6->setText(QCoreApplication::translate("tela2", "RESTIFY", nullptr));
         lineEdit_2->setInputMask(QString());
         lineEdit_2->setText(QString());
-        lineEdit_2->setPlaceholderText(QCoreApplication::translate("tela2", "Senha", nullptr));
+        lineEdit_2->setPlaceholderText(QCoreApplication::translate("tela2", "senha", nullptr));
+        label_2->setText(QString());
     } // retranslateUi
 
 };

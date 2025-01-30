@@ -12,86 +12,56 @@
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QDialog>
-#include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QPushButton>
-#include <QtWidgets/QSpacerItem>
 #include <QtWidgets/QTableView>
-#include <QtWidgets/QVBoxLayout>
-#include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
 
 class Ui_telarelatorio
 {
 public:
-    QWidget *widget;
-    QVBoxLayout *verticalLayout;
-    QHBoxLayout *horizontalLayout;
-    QSpacerItem *horizontalSpacer;
-    QLabel *label;
-    QSpacerItem *horizontalSpacer_2;
-    QHBoxLayout *horizontalLayout_2;
-    QPushButton *pushButton;
-    QPushButton *pushButton_2;
     QPushButton *pushButton_3;
+    QPushButton *pushButton_2;
+    QPushButton *pushButton;
+    QLabel *label;
     QTableView *tableView;
 
     void setupUi(QDialog *telarelatorio)
     {
         if (telarelatorio->objectName().isEmpty())
             telarelatorio->setObjectName("telarelatorio");
-        telarelatorio->resize(400, 300);
-        widget = new QWidget(telarelatorio);
-        widget->setObjectName("widget");
-        widget->setGeometry(QRect(20, 10, 361, 271));
-        verticalLayout = new QVBoxLayout(widget);
-        verticalLayout->setObjectName("verticalLayout");
-        verticalLayout->setContentsMargins(0, 0, 0, 0);
-        horizontalLayout = new QHBoxLayout();
-        horizontalLayout->setObjectName("horizontalLayout");
-        horizontalSpacer = new QSpacerItem(40, 20, QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Minimum);
-
-        horizontalLayout->addItem(horizontalSpacer);
-
-        label = new QLabel(widget);
-        label->setObjectName("label");
-
-        horizontalLayout->addWidget(label);
-
-        horizontalSpacer_2 = new QSpacerItem(40, 20, QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Minimum);
-
-        horizontalLayout->addItem(horizontalSpacer_2);
-
-
-        verticalLayout->addLayout(horizontalLayout);
-
-        horizontalLayout_2 = new QHBoxLayout();
-        horizontalLayout_2->setObjectName("horizontalLayout_2");
-        pushButton = new QPushButton(widget);
-        pushButton->setObjectName("pushButton");
-
-        horizontalLayout_2->addWidget(pushButton);
-
-        pushButton_2 = new QPushButton(widget);
-        pushButton_2->setObjectName("pushButton_2");
-
-        horizontalLayout_2->addWidget(pushButton_2);
-
-        pushButton_3 = new QPushButton(widget);
+        telarelatorio->resize(850, 560);
+        telarelatorio->setStyleSheet(QString::fromUtf8("background-color: #556B2F"));
+        pushButton_3 = new QPushButton(telarelatorio);
         pushButton_3->setObjectName("pushButton_3");
-
-        horizontalLayout_2->addWidget(pushButton_3);
-
-
-        verticalLayout->addLayout(horizontalLayout_2);
-
-        tableView = new QTableView(widget);
+        pushButton_3->setGeometry(QRect(570, 150, 271, 29));
+        QFont font;
+        font.setBold(true);
+        pushButton_3->setFont(font);
+        pushButton_3->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 183, 0);"));
+        pushButton_2 = new QPushButton(telarelatorio);
+        pushButton_2->setObjectName("pushButton_2");
+        pushButton_2->setGeometry(QRect(290, 150, 271, 29));
+        pushButton_2->setFont(font);
+        pushButton_2->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 183, 0);"));
+        pushButton = new QPushButton(telarelatorio);
+        pushButton->setObjectName("pushButton");
+        pushButton->setGeometry(QRect(10, 150, 271, 29));
+        pushButton->setFont(font);
+        pushButton->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 183, 0);"));
+        label = new QLabel(telarelatorio);
+        label->setObjectName("label");
+        label->setGeometry(QRect(240, 40, 521, 51));
+        QFont font1;
+        font1.setFamilies({QString::fromUtf8("Segoe Script")});
+        font1.setPointSize(16);
+        font1.setBold(true);
+        label->setFont(font1);
+        tableView = new QTableView(telarelatorio);
         tableView->setObjectName("tableView");
-
-        verticalLayout->addWidget(tableView);
-
+        tableView->setGeometry(QRect(12, 199, 831, 351));
 
         retranslateUi(telarelatorio);
 
@@ -101,10 +71,10 @@ public:
     void retranslateUi(QDialog *telarelatorio)
     {
         telarelatorio->setWindowTitle(QCoreApplication::translate("telarelatorio", "Dialog", nullptr));
-        label->setText(QCoreApplication::translate("telarelatorio", "Relat\303\263rio Atualizado dos Pedidos", nullptr));
-        pushButton->setText(QCoreApplication::translate("telarelatorio", "menos vendidos", nullptr));
-        pushButton_2->setText(QCoreApplication::translate("telarelatorio", "sem filtros", nullptr));
         pushButton_3->setText(QCoreApplication::translate("telarelatorio", "mais vendidos", nullptr));
+        pushButton_2->setText(QCoreApplication::translate("telarelatorio", "sem filtros", nullptr));
+        pushButton->setText(QCoreApplication::translate("telarelatorio", "menos vendidos", nullptr));
+        label->setText(QCoreApplication::translate("telarelatorio", "Relat\303\263rio Atualizado dos Pedidos", nullptr));
     } // retranslateUi
 
 };

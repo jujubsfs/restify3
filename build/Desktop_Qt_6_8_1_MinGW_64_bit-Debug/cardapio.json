@@ -4,6 +4,21 @@
             "categoria": "Principal",
             "nome": "frango a parmegiana",
             "preco": 10
+        },
+        {
+            "categoria": "Principal",
+            "nome": "estrogonofe",
+            "preco": 20
+        },
+        {
+            "categoria": "Bebida",
+            "nome": "coca cola",
+            "preco": 10
+        },
+        {
+            "categoria": "Sobremesa",
+            "nome": "bolo de rolo",
+            "preco": 6
         }
     ]
 }
