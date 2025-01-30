@@ -60,7 +60,7 @@ void teladecardapio::carregarcardapio(){
         double preco = obj["preco"].toDouble();
         QString categoria = obj["categoria"].toString();
 
-        QString itemText = QString("Nome: %1 - R$ %2 - Categoria: %3").arg(nome).arg(preco).arg(categoria);
+        QString itemText = QString("%1 - R$ %2 - %3").arg(nome).arg(preco).arg(categoria);
         ui->listWidget->addItem(itemText);}
 }
 

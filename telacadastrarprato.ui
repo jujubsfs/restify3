@@ -14,7 +14,11 @@
    <string>Dialog</string>
   </property>
   <property name="styleSheet">
+<<<<<<< Updated upstream
    <string notr="true">background-color: #556B2F</string>
+=======
+   <string notr="true">background-color: rgb(85, 107, 47);</string>
+>>>>>>> Stashed changes
   </property>
   <widget class="QWidget" name="layoutWidget">
    <property name="geometry">

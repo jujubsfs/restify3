@@ -49,6 +49,7 @@ public:
         if (telacadastrarprato->objectName().isEmpty())
             telacadastrarprato->setObjectName("telacadastrarprato");
         telacadastrarprato->resize(400, 300);
+        telacadastrarprato->setStyleSheet(QString::fromUtf8("background-color: rgb(85, 107, 47);"));
         layoutWidget = new QWidget(telacadastrarprato);
         layoutWidget->setObjectName("layoutWidget");
         layoutWidget->setGeometry(QRect(20, 10, 361, 271));

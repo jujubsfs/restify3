@@ -1,9 +1,9 @@
 {
     "cardapio": [
         {
-            "categoria": "Principal",
-            "nome": "frango a parmegiana",
-            "preco": 10
+            "categoria": "Sobremesa",
+            "nome": "bolo",
+            "preco": 8
         }
     ]
 }
