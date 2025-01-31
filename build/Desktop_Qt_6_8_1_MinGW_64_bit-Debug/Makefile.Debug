@@ -944,6 +944,17 @@ debug/moc_telacontabilizarpedido.cpp: ../../telacontabilizarpedido.h \
 		C:/Qt/6.8.1/mingw_64/include/QtGui/qinputmethod.h \
 		C:/Qt/6.8.1/mingw_64/include/QtCore/qlocale.h \
 		C:/Qt/6.8.1/mingw_64/include/QtGui/qguiapplication_platform.h \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/QJsonArray \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/qjsonarray.h \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/qjsonvalue.h \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/qcborvalue.h \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/qcborcommon.h \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/qdatetime.h \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/qcalendar.h \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/qregularexpression.h \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/quuid.h \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/QJsonObject \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/qjsonobject.h \
 		debug/moc_predefs.h \
 		C:/Qt/6.8.1/mingw_64/bin/moc.exe
 	C:\Qt\6.8.1\mingw_64\bin\moc.exe $(DEFINES) --include "C:/Users/Avanco Engenharia/Documents/GitHub/restify3/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.8.1/mingw_64/mkspecs/win32-g++ -I"C:/Users/Avanco Engenharia/Documents/GitHub/restify3" -IC:/Qt/6.8.1/mingw_64/include -IC:/Qt/6.8.1/mingw_64/include/QtWidgets -IC:/Qt/6.8.1/mingw_64/include/QtGui -IC:/Qt/6.8.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++ -IC:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward -IC:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include -IC:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed -IC:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include ..\..\telacontabilizarpedido.h -o debug\moc_telacontabilizarpedido.cpp
@@ -1334,6 +1345,15 @@ debug/moc_telarelatorio.cpp: ../../telarelatorio.h \
 		C:/Qt/6.8.1/mingw_64/include/QtGui/qinputmethod.h \
 		C:/Qt/6.8.1/mingw_64/include/QtCore/qlocale.h \
 		C:/Qt/6.8.1/mingw_64/include/QtGui/qguiapplication_platform.h \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/QJsonArray \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/qjsonarray.h \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/qjsonvalue.h \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/qcborvalue.h \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/qcborcommon.h \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/qdatetime.h \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/qcalendar.h \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/qregularexpression.h \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/quuid.h \
 		debug/moc_predefs.h \
 		C:/Qt/6.8.1/mingw_64/bin/moc.exe
 	C:\Qt\6.8.1\mingw_64\bin\moc.exe $(DEFINES) --include "C:/Users/Avanco Engenharia/Documents/GitHub/restify3/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.8.1/mingw_64/mkspecs/win32-g++ -I"C:/Users/Avanco Engenharia/Documents/GitHub/restify3" -IC:/Qt/6.8.1/mingw_64/include -IC:/Qt/6.8.1/mingw_64/include/QtWidgets -IC:/Qt/6.8.1/mingw_64/include/QtGui -IC:/Qt/6.8.1/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++ -IC:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward -IC:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include -IC:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed -IC:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include ..\..\telarelatorio.h -o debug\moc_telarelatorio.cpp
@@ -1865,6 +1885,17 @@ debug/tela1.o: ../../tela1.cpp ../../tela1.h \
 		../../teladecardapio.h \
 		../../telacadastrarprato.h \
 		../../telacontabilizarpedido.h \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/QJsonArray \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/qjsonarray.h \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/qjsonvalue.h \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/qcborvalue.h \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/qcborcommon.h \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/qdatetime.h \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/qcalendar.h \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/qregularexpression.h \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/quuid.h \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/QJsonObject \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/qjsonobject.h \
 		../../telarelatorio.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\tela1.o ..\..\tela1.cpp
 
@@ -2487,7 +2518,26 @@ debug/telacontabilizarpedido.o: ../../telacontabilizarpedido.cpp ../../telaconta
 		C:/Qt/6.8.1/mingw_64/include/QtGui/qinputmethod.h \
 		C:/Qt/6.8.1/mingw_64/include/QtCore/qlocale.h \
 		C:/Qt/6.8.1/mingw_64/include/QtGui/qguiapplication_platform.h \
-		ui_telacontabilizarpedido.h
+		C:/Qt/6.8.1/mingw_64/include/QtCore/QJsonArray \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/qjsonarray.h \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/qjsonvalue.h \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/qcborvalue.h \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/qcborcommon.h \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/qdatetime.h \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/qcalendar.h \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/qregularexpression.h \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/quuid.h \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/QJsonObject \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/qjsonobject.h \
+		ui_telacontabilizarpedido.h \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/QFile \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/qfile.h \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/qfiledevice.h \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/QJsonDocument \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/qjsondocument.h \
+		C:/Qt/6.8.1/mingw_64/include/QtWidgets/QMessageBox \
+		C:/Qt/6.8.1/mingw_64/include/QtWidgets/qmessagebox.h \
+		C:/Qt/6.8.1/mingw_64/include/QtWidgets/qdialogbuttonbox.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\telacontabilizarpedido.o ..\..\telacontabilizarpedido.cpp
 
 debug/teladecardapio.o: ../../teladecardapio.cpp ../../teladecardapio.h \
@@ -2896,7 +2946,26 @@ debug/telarelatorio.o: ../../telarelatorio.cpp ../../telarelatorio.h \
 		C:/Qt/6.8.1/mingw_64/include/QtGui/qinputmethod.h \
 		C:/Qt/6.8.1/mingw_64/include/QtCore/qlocale.h \
 		C:/Qt/6.8.1/mingw_64/include/QtGui/qguiapplication_platform.h \
-		ui_telarelatorio.h
+		C:/Qt/6.8.1/mingw_64/include/QtCore/QJsonArray \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/qjsonarray.h \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/qjsonvalue.h \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/qcborvalue.h \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/qcborcommon.h \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/qdatetime.h \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/qcalendar.h \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/qregularexpression.h \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/quuid.h \
+		ui_telarelatorio.h \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/QFile \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/qfile.h \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/qfiledevice.h \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/QJsonDocument \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/qjsondocument.h \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/QJsonObject \
+		C:/Qt/6.8.1/mingw_64/include/QtCore/qjsonobject.h \
+		C:/Qt/6.8.1/mingw_64/include/QtWidgets/QMessageBox \
+		C:/Qt/6.8.1/mingw_64/include/QtWidgets/qmessagebox.h \
+		C:/Qt/6.8.1/mingw_64/include/QtWidgets/qdialogbuttonbox.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\telarelatorio.o ..\..\telarelatorio.cpp
 
 debug/qrc_resources.o: debug/qrc_resources.cpp 

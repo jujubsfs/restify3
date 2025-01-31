@@ -1,12 +1,10 @@
 #include "database.h"
 
-// Definindo o método getInstance(isso é uma instancia singleton)
+// Definindo o método getInstance (isso é uma instância singleton)
 Database& Database::getInstance() {
     static Database instance;
     return instance;
 }
-
-//CadastroTutor
 
 // Adiciona um dado para uma chave específica
 void Database::addData(const QString& key, const QString& value) {
@@ -23,8 +21,7 @@ std::vector<QString> Database::getData(const QString& key) {
 
 // Remove um dado com base no índice da chave
 void Database::deleteData(const QString& key, int index) {
-    if (storage.find(key) != storage.end() && index < storage[key].size()) {
+    if (storage.find(key) != storage.end() && index >= 0 && static_cast<std::vector<QString>::size_type>(index) < storage[key].size()) {
         storage[key].erase(storage[key].begin() + index);  // Remove o dado do índice específico
     }
 }
-

@@ -26,6 +26,8 @@ public:
     QPushButton *pushButton;
     QLabel *label;
     QListWidget *listWidget;
+    QLabel *label_2;
+    QLabel *label_3;
 
     void setupUi(QDialog *telarelatorio)
     {
@@ -60,7 +62,23 @@ public:
         label->setFont(font1);
         listWidget = new QListWidget(telarelatorio);
         listWidget->setObjectName("listWidget");
-        listWidget->setGeometry(QRect(10, 190, 831, 361));
+        listWidget->setGeometry(QRect(10, 180, 831, 371));
+        listWidget->setStyleSheet(QString::fromUtf8("color: white;"));
+        label_2 = new QLabel(telarelatorio);
+        label_2->setObjectName("label_2");
+        label_2->setGeometry(QRect(590, 340, 351, 231));
+        label_2->setPixmap(QPixmap(QString::fromUtf8(":/imagem/embaixo.png")));
+        label_3 = new QLabel(telarelatorio);
+        label_3->setObjectName("label_3");
+        label_3->setGeometry(QRect(-20, 190, 281, 491));
+        label_3->setPixmap(QPixmap(QString::fromUtf8(":/imagem/esquerda.png")));
+        label_2->raise();
+        label_3->raise();
+        listWidget->raise();
+        pushButton_3->raise();
+        pushButton_2->raise();
+        pushButton->raise();
+        label->raise();
 
         retranslateUi(telarelatorio);
 
@@ -74,6 +92,8 @@ public:
         pushButton_2->setText(QCoreApplication::translate("telarelatorio", "sem filtros", nullptr));
         pushButton->setText(QCoreApplication::translate("telarelatorio", "menos vendidos", nullptr));
         label->setText(QCoreApplication::translate("telarelatorio", "Relat\303\263rio Atualizado dos Pedidos", nullptr));
+        label_2->setText(QString());
+        label_3->setText(QString());
     } // retranslateUi
 
 };
