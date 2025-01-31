@@ -44,7 +44,9 @@ Para rodar o Restify no Qt Creator, siga os passos abaixo:
 
 Aqui está um gif mostrando o Restify em funcionamento:
 
-![GIF do Restify](C:\Users\Avanco Engenharia\Downloads\restify_parte1)
+<img src = "https://github.com/jujubsfs/restify3/blob/master/restify_parte1.gif" width = "800px" />
+<img src = "https://github.com/jujubsfs/restify3/blob/master/restify_parte2.gif" width = "800px" />
+<img src = "https://github.com/jujubsfs/restify3/blob/master/restify_parte3.gif" width = "800px" />
 
 ---
 
